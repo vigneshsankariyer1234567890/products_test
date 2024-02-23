@@ -1,38 +1,23 @@
-# Create Interview
+# Product List
 
-## How to use
+## Welcome
 
-Run the following command:
+Thanks for checking out this coding challenge.
 
-```sh
-npx create-interview@latest
-```
+## The Challenge
 
-## What's inside?
+You have to build a product list application.
+You don't have to build a backend for this application;
+you can use the [Fake Store API](https://fakestoreapi.com) to get the products and categories.
 
-- `src`: cli source code to create interview exam
-- `exams`: list of exams for the interview
+You can use any framework or library you want.
 
-### Utilities
+## Requirements
 
-This project has some additional tools already setup for you:
+You can implement some of the features; depending on your experience and time, you can choose which features to implement.
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-yarn build
-```
-
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-yarn dev
-```
+- [ ] Get products
+- [ ] Get categories
+- [ ] Display products by category
+- [ ] Pagination for products, 5 products per page
+- [ ] Sort products by id or price with ascending and descending

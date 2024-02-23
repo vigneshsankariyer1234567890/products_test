@@ -1,47 +1,32 @@
 {
-  "name": "create-interview",
-  "version": "1.0.4",
+  "name": "product-list",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
-  "license": "MIT",
-  "author": "kayac-chang <egg734631@gmail.com> (https://github.com/kayac-chang)",
-  "files": [
-    "index.js",
-    "dist",
-    "exams"
-  ],
-  "bin": {
-    "create-interview": "index.js"
-  },
   "scripts": {
-    "dev": "unbuild --stub",
-    "build": "unbuild",
-    "typecheck": "tsc --noEmit",
-    "prepublishOnly": "npm run build"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
-  "engines": {
-    "node": "^18.0.0 || >=20.0.0"
+  "prettier": {},
+  "eslintIgnore": [
+    "/node_modules",
+    "/public"
+  ],
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/minimist": "^1.2.2",
-    "@types/prompts": "^2.4.4",
-    "kolorist": "^1.8.0",
-    "minimist": "^1.2.8",
-    "prompts": "^2.4.2",
-    "typescript": "^5.2.2",
-    "unbuild": "^2.0.0"
-  },
-  "volta": {
-    "node": "18.18.0"
-  },
-  "dependencies": {
-    "pipe-ts": "^0.0.9"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kayac-chang/create-interview"
-  },
-  "bugs": {
-    "url": "https://github.com/kayac-chang/create-interview/issues"
-  },
-  "homepage": "https://github.com/kayac-chang/create-interview#readme"
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.4",
+    "eslint": "^8.50.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "prettier": "^3.0.3",
+    "vite": "^4.4.9"
+  }
 }
