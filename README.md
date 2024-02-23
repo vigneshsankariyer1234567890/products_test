@@ -16,8 +16,8 @@ You can use any framework or library you want.
 
 You can implement some of the features; depending on your experience and time, you can choose which features to implement.
 
-- [ ] Get products
-- [ ] Get categories
-- [ ] Display products by category
-- [ ] Pagination for products, 5 products per page
+- [x] Get products
+- [x] Get categories
+- [x] Display products by category
+- [x] Pagination for products, 5 products per page (did pagination on client side, since API definition does not allow for pagination)
 - [ ] Sort products by id or price with ascending and descending
